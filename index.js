@@ -22,7 +22,7 @@ app.get('/',(req,res)=>{
 })
 
 //mongo connect
-mongoose.connect('mongodb+srv://ka1073:Shiji%402012@cluster0.ovtve.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('mongodb+srv://{hidden}@cluster0.ovtve.mongodb.net/{hidden}?retryWrites=true&w=majority&appName=Cluster0')
   .then(() => {
     console.log('Connected!');
     app.listen(PORT,()=>{
